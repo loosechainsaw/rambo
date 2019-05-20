@@ -69,6 +69,23 @@ namespace rambo {
 
         return last;
     }
+
+    template<typename TInputIterator, typename TOutputIterator, typename P>
+    TInputIterator find_all_if(TInputIterator begin1, TInputIterator end1, TOutputIterator begin2, P&& predicate) {
+
+        TInputIterator last = end1;
+
+        for(; begin1 != end1; ++begin1) {
+
+            if (predicate(*begin1)) {
+                *begin2 = begin1;
+                last = begin1;
+            }
+
+        }
+
+        return last;
+    }
 }
 
 #endif

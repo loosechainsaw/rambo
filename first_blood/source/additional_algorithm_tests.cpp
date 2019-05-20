@@ -57,6 +57,32 @@ TEST_CASE("additional algorithm tests") {
         REQUIRE(expected == distances);
     }
 
+    SECTION("find all if")
+    {
+        std::vector<int> v1{1,3,4,1,6,7,1};
+        std::vector<decltype(v1)::iterator> results;
+        results.reserve(4);
+
+        auto p = rambo::find_all_if(v1.begin(), v1.end(), std::back_inserter(results),
+                [](auto t)
+                {
+                    return t < 2;
+                });
+
+        std::vector<int> distances;
+        distances.reserve(4);
+
+        std::transform(results.begin(), results.end(), std::back_inserter(distances),
+                       [&v1](auto d)
+                       {
+                           return std::distance(v1.begin(), d);
+                       });
+
+        std::vector<int> expected{0,3,6};
+
+        REQUIRE(expected == distances);
+    }
+
     SECTION("zip if")
     {
         std::vector<int> v1{1, 3, 5};
