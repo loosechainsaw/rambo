@@ -52,6 +52,23 @@ namespace rambo {
         }
         return zero;
     }
+
+    template<typename TInputIterator, typename TOutputIterator, typename T>
+    TInputIterator find_all(TInputIterator begin1, TInputIterator end1, TOutputIterator begin2, T&& value) {
+
+        TInputIterator last = end1;
+
+        for(; begin1 != end1; ++begin1) {
+
+            if (value == *begin1) {
+                *begin2 = begin1;
+                last = begin1;
+            }
+
+        }
+
+        return last;
+    }
 }
 
 #endif
