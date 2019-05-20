@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rambo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rambo\;CMake Files\first_blood\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/blair/projects/rambo/cmake-build-debug/rambo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/rambo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/rambo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/rambo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/rambo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/blair/projects/rambo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/rambo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rambo\"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/first_blood/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\first_blood\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

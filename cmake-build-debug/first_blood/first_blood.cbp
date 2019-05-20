@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="first_blood"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rambo\;CMake Files\first_blood\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/blair/projects/rambo/cmake-build-debug/first_blood"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first_blood">
+				<Option output="/home/blair/projects/rambo/cmake-build-debug/first_blood/first_blood" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blair/projects/rambo/cmake-build-debug/first_blood"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/blair/projects/rambo/first_blood/include"/>
+					<Add directory="/home/blair/projects/rambo/first_blood/include/third_party"/>
+					<Add directory="/home/blair/projects/rambo/rambo/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 first_blood"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first_blood/fast">
+				<Option output="/home/blair/projects/rambo/cmake-build-debug/first_blood/first_blood" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blair/projects/rambo/cmake-build-debug/first_blood"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/blair/projects/rambo/first_blood/include"/>
+					<Add directory="/home/blair/projects/rambo/first_blood/include/third_party"/>
+					<Add directory="/home/blair/projects/rambo/rambo/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 first_blood/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blair/projects/rambo/cmake-build-debug/first_blood/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/blair/projects/rambo/first_blood/source/additional_algorithm_tests.cpp">
+			<Option target="first_blood"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/first_blood/source/main.cpp">
+			<Option target="first_blood"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/first_blood/source/typelist_algorithm_tests.cpp">
+			<Option target="first_blood"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/rambo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rambo\"/>
+		</Unit>
+		<Unit filename="/home/blair/projects/rambo/first_blood/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\first_blood\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
