@@ -36,14 +36,22 @@ namespace rambo {
         return begin3;
     }
 
-    template<typename TInputIterator, typename TOutputIterator, typename P>
-    TInputIterator transform_if(TInputIterator begin1, TInputIterator end1, TOutputIterator begin2, P&& predicate) {
+    template<typename TInputIterator, typename TOutputIterator, typename P, typename F>
+    TOutputIterator transform_if(TInputIterator begin1, TInputIterator end1,
+                                 TOutputIterator begin2, P&& predicate, F&& f) {
         for(; begin1 != end1; ++begin1) {
-            if (predicate(*begin1)) *begin2 = *begin1;
+            if (predicate(*begin1)) *begin2 = f(*begin1);
         }
         return begin2;
     }
 
+    template<typename TInputIterator, typename Zero, typename P, typename F>
+    Zero accumulate_if(TInputIterator begin1, TInputIterator end1, Zero zero, P&& predicate, F&& f) {
+        for(; begin1 != end1; ++begin1) {
+            if (predicate(*begin1)) zero = f(zero, *begin1);
+        }
+        return zero;
+    }
 }
 
 #endif

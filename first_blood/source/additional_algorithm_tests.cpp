@@ -19,6 +19,22 @@ TEST_CASE("additional algorithm tests") {
         REQUIRE(results == expected);
     }
 
+    SECTION("accumulate if")
+    {
+        std::vector<int> v1{1, 3, 5};
+
+        auto accum = rambo::accumulate_if(v1.begin(), v1.end(), 0,
+                [](auto a) {
+                    return a > 1;
+                },
+                [](auto a, auto b)
+                {
+                    return a + b;
+                });
+
+        REQUIRE(accum == 8);
+    }
+
     SECTION("zip if")
     {
         std::vector<int> v1{1, 3, 5};
@@ -36,6 +52,15 @@ TEST_CASE("additional algorithm tests") {
 
     SECTION("transform if")
     {
+        std::vector<int> v1{1, 3, 5};
+        std::vector<int> results;
+        results.reserve(3);
 
+        std::vector<int> expected{4, 6};
+        rambo::transform_if(v1.begin(), v1.end(), std::back_inserter(results),
+                      [](auto a){ return a > 1;},
+                      [](auto b){ return b + 1;});
+
+        REQUIRE(results == expected);
     }
 }
