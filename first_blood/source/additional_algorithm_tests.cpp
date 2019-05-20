@@ -47,19 +47,14 @@ TEST_CASE("additional algorithm tests") {
         distances.reserve(4);
 
         std::transform(results.begin(), results.end(), std::back_inserter(distances),
-                [&results](auto d)
+                [&v1](auto d)
                 {
-            int x = 5;
-                    return 1;
-                   // return std::distance(results.begin(), d);
+                    return std::distance(v1.begin(), d);
                 });
 
-        for(auto v : results)
-        {
-        }
+        std::vector<int> expected{0,3,6};
 
-
-
+        REQUIRE(expected == distances);
     }
 
     SECTION("zip if")
