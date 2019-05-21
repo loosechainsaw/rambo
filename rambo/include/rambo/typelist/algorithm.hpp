@@ -5,6 +5,27 @@
 
 namespace rambo {
 
+    namespace detail {
+
+        template<auto N, typename T, typename... Ts>
+        struct index_of;
+
+        template<typename T, typename... Ts>
+        struct index_of<0, T, std::tuple<T, Ts...>> {
+            static constexpr int value = 0;
+        };
+
+        template<typename T, typename... Ts>
+        struct index_of<0, T, std::tuple<Ts...>> {
+            static constexpr int value = -1;
+        };
+
+        template<auto N, typename T, typename H, typename... Ts>
+        struct index_of<N, T, std::tuple<H, Ts...>> {
+            static constexpr int value = 1 + index_of<N - 1, T, std::tuple<Ts...>>::value;
+        };
+    }
+
     template<typename T, template<typename > typename F >
     struct transform;
 
@@ -85,6 +106,44 @@ namespace rambo {
     struct push_front<T, std::tuple<Ts...>> {
         typedef std::tuple<T, Ts...> type;
     };
+
+    template<typename... Ts>
+    struct pop_front;
+
+    template<typename T, typename... Ts>
+    struct pop_front<std::tuple<T, Ts...>> {
+        typedef std::tuple<Ts...> type;
+    };
+
+    template<typename T, typename... Ts>
+    struct push_back;
+
+    template<typename T, typename... Ts>
+    struct push_back<T, std::tuple<Ts...>> {
+        typedef std::tuple<Ts..., T> type;
+    };
+
+    template<typename... Ts>
+    struct pop_back;
+
+    template<typename T>
+    struct pop_back<std::tuple<T>> {
+        typedef std::tuple<> type;
+    };
+
+    template<typename T, typename... Ts>
+    struct pop_back<std::tuple<T, Ts...>> {
+        typedef typename push_front<T, typename pop_back<std::tuple<Ts...>>::type>::type type;
+    };
+
+    template<typename T, typename... Ts>
+    struct index_of;
+
+    template<typename T, typename... Ts>
+    struct index_of<T, std::tuple<Ts...>>{
+        static constexpr int value = detail::index_of<sizeof(Ts)..., T, std::tuple<Ts...>>::value;
+    };
+
 
 }
 

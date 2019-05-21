@@ -55,6 +55,46 @@ TEST_CASE("type list algorithms") {
         STATIC_REQUIRE(result);
 
     }
+
+    SECTION("push front")
+    {
+
+        using source = std::tuple<int, double, float>;
+        using expected = std::tuple<long , int, double, float>;
+        using result = rambo::push_front<long , source>::type;
+
+        STATIC_REQUIRE(std::is_same<expected, result>::value);
+    }
+
+    SECTION("pop front")
+    {
+
+        using source = std::tuple<int, double, float>;
+        using expected = std::tuple<double, float>;
+        using result = rambo::pop_front<source>::type;
+
+        STATIC_REQUIRE(std::is_same<expected, result>::value);
+    }
+
+    SECTION("push back")
+    {
+
+        using source = std::tuple<int, double, float>;
+        using expected = std::tuple<int, double, float, long>;
+        using result = rambo::push_back<long , source>::type;
+
+        STATIC_REQUIRE(std::is_same<expected, result>::value);
+    }
+
+    SECTION("pop back")
+    {
+
+        using source = std::tuple<int, double, float>;
+        using expected = std::tuple<int, double>;
+        using result = rambo::pop_back<source>::type;
+
+        STATIC_REQUIRE(std::is_same<expected, result>::value);
+    }
 }
 
 #endif

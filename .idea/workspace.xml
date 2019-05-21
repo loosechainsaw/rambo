@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3b756-19c0-4083-b948-e8fdc03dd1a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/first_blood/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/first_blood/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="2b2765cb-f968-456c-9ad0-6ccf5e01dbcf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/first_blood/source/typelist_algorithm_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/first_blood/source/typelist_algorithm_tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rambo/include/rambo/typelist/algorithm.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/rambo/include/rambo/typelist/algorithm.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -27,15 +27,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_blood/source/typelist_algorithm_tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-              <folding>
-                <element signature="e#87#114#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="696">
+              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -43,37 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rambo/include/rambo/typelist/algorithm.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-              <folding>
-                <element signature="e#106#151#0" expanded="true" />
-                <element signature="e#126#137#0" expanded="true" />
-                <element signature="e#187#235#0" expanded="true" />
-                <element signature="e#214#225#0" expanded="true" />
-                <element signature="e#333#349#0" expanded="true" />
-                <element signature="e#381#409#0" expanded="true" />
-                <element signature="e#521#537#0" expanded="true" />
-                <element signature="e#542#554#0" expanded="true" />
-                <element signature="e#632#660#0" expanded="true" />
-                <element signature="e#808#831#0" expanded="true" />
-                <element signature="e#861#863#0" expanded="true" />
-                <element signature="e#861#889#0" expanded="true" />
-                <element signature="e#1090#1126#0" expanded="true" />
-                <element signature="e#1258#1298#0" expanded="true" />
-                <element signature="e#1279#1289#0" expanded="true" />
-                <element signature="e#1328#1356#0" expanded="true" />
-                <element signature="e#1346#1356#0" expanded="true" />
-                <element signature="e#1456#1512#0" expanded="true" />
-                <element signature="e#1493#1503#0" expanded="true" />
-                <element signature="e#1661#1701#0" expanded="true" />
-                <element signature="e#1682#1692#0" expanded="true" />
-                <element signature="e#1731#1759#0" expanded="true" />
-                <element signature="e#1740#1750#0" expanded="true" />
-                <element signature="e#1859#1915#0" expanded="true" />
-                <element signature="e#1896#1906#0" expanded="true" />
-                <element signature="e#2068#2096#0" expanded="true" />
-                <element signature="e#2129#2157#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="783">
+              <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -109,11 +77,13 @@
     <option name="width" value="1920" />
     <option name="height" value="1051" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,14 +102,40 @@
               <item name="first_blood" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rambo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rambo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rambo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rambo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="rambo" type="462c0819:PsiDirectoryNode" />
+              <item name="typelist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -180,55 +176,76 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6154000" />
+    <option name="totallyTimeSpent" value="11226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1051" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1411" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.6171967" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Conan" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32955536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="make" />
-      <window_info anchor="right" id="Compiler Explorer" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Conan" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.6163906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
+      <window_info anchor="right" id="Compiler Explorer" order="5" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536232" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Conan" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.6163906" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
+      <window_info anchor="right" id="Compiler Explorer" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/first_blood/source/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_blood/source/additional_algorithm_tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="331">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -246,49 +263,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/first_blood/source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rambo/include/rambo/algorithm.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/first_blood/source/typelist_algorithm_tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding>
-            <element signature="e#87#114#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="696">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rambo/include/rambo/typelist/algorithm.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-          <folding>
-            <element signature="e#106#151#0" expanded="true" />
-            <element signature="e#126#137#0" expanded="true" />
-            <element signature="e#187#235#0" expanded="true" />
-            <element signature="e#214#225#0" expanded="true" />
-            <element signature="e#333#349#0" expanded="true" />
-            <element signature="e#381#409#0" expanded="true" />
-            <element signature="e#521#537#0" expanded="true" />
-            <element signature="e#542#554#0" expanded="true" />
-            <element signature="e#632#660#0" expanded="true" />
-            <element signature="e#808#831#0" expanded="true" />
-            <element signature="e#861#863#0" expanded="true" />
-            <element signature="e#861#889#0" expanded="true" />
-            <element signature="e#1090#1126#0" expanded="true" />
-            <element signature="e#1258#1298#0" expanded="true" />
-            <element signature="e#1279#1289#0" expanded="true" />
-            <element signature="e#1328#1356#0" expanded="true" />
-            <element signature="e#1346#1356#0" expanded="true" />
-            <element signature="e#1456#1512#0" expanded="true" />
-            <element signature="e#1493#1503#0" expanded="true" />
-            <element signature="e#1661#1701#0" expanded="true" />
-            <element signature="e#1682#1692#0" expanded="true" />
-            <element signature="e#1731#1759#0" expanded="true" />
-            <element signature="e#1740#1750#0" expanded="true" />
-            <element signature="e#1859#1915#0" expanded="true" />
-            <element signature="e#1896#1906#0" expanded="true" />
-            <element signature="e#2068#2096#0" expanded="true" />
-            <element signature="e#2129#2157#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="783">
+          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
         </state>
       </provider>
     </entry>
