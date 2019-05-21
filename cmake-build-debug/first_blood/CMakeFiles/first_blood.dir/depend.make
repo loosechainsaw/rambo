@@ -8,6 +8,11 @@ first_blood/CMakeFiles/first_blood.dir/source/additional_algorithm_tests.cpp.o: 
 first_blood/CMakeFiles/first_blood.dir/source/main.cpp.o: ../first_blood/include/third_party/catch2/catch.hpp
 first_blood/CMakeFiles/first_blood.dir/source/main.cpp.o: ../first_blood/source/main.cpp
 
+first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../first_blood/include/third_party/catch2/catch.hpp
+first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/runtime/algorithm.hpp
+first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/traits.hpp
+first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../first_blood/source/tuple_algorithm_tests.cpp
+
 first_blood/CMakeFiles/first_blood.dir/source/typelist_algorithm_tests.cpp.o: ../first_blood/include/third_party/catch2/catch.hpp
 first_blood/CMakeFiles/first_blood.dir/source/typelist_algorithm_tests.cpp.o: ../rambo/include/rambo/typelist/algorithm.hpp
 first_blood/CMakeFiles/first_blood.dir/source/typelist_algorithm_tests.cpp.o: ../first_blood/source/typelist_algorithm_tests.cpp

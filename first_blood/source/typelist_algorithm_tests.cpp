@@ -4,6 +4,7 @@
 #include <catch2/catch.hpp>
 #include <rambo/typelist/algorithm.hpp>
 #include <type_traits>
+#include <tuple>
 
 TEST_CASE("type list algorithms") {
 
@@ -94,6 +95,21 @@ TEST_CASE("type list algorithms") {
         using result = rambo::pop_back<source>::type;
 
         STATIC_REQUIRE(std::is_same<expected, result>::value);
+    }
+
+    SECTION("index of")
+    {
+
+        using source = std::tuple<int, double, float>;
+
+        static constexpr bool r1 = rambo::index_of<int , source>::value;
+        STATIC_REQUIRE(r1 == 0);
+
+        static constexpr bool r2 = rambo::index_of<double , source>::value;
+        STATIC_REQUIRE(r2 == 1);
+
+        static constexpr bool r3 = rambo::index_of<float , source>::value;
+        //STATIC_REQUIRE(r3 == 2);
     }
 }
 

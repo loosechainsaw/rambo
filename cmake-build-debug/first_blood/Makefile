@@ -179,6 +179,33 @@ source/main.cpp.s:
 	cd /home/blair/projects/rambo/cmake-build-debug && $(MAKE) -f first_blood/CMakeFiles/first_blood.dir/build.make first_blood/CMakeFiles/first_blood.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
+source/tuple_algorithm_tests.o: source/tuple_algorithm_tests.cpp.o
+
+.PHONY : source/tuple_algorithm_tests.o
+
+# target to build an object file
+source/tuple_algorithm_tests.cpp.o:
+	cd /home/blair/projects/rambo/cmake-build-debug && $(MAKE) -f first_blood/CMakeFiles/first_blood.dir/build.make first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o
+.PHONY : source/tuple_algorithm_tests.cpp.o
+
+source/tuple_algorithm_tests.i: source/tuple_algorithm_tests.cpp.i
+
+.PHONY : source/tuple_algorithm_tests.i
+
+# target to preprocess a source file
+source/tuple_algorithm_tests.cpp.i:
+	cd /home/blair/projects/rambo/cmake-build-debug && $(MAKE) -f first_blood/CMakeFiles/first_blood.dir/build.make first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.i
+.PHONY : source/tuple_algorithm_tests.cpp.i
+
+source/tuple_algorithm_tests.s: source/tuple_algorithm_tests.cpp.s
+
+.PHONY : source/tuple_algorithm_tests.s
+
+# target to generate assembly for a file
+source/tuple_algorithm_tests.cpp.s:
+	cd /home/blair/projects/rambo/cmake-build-debug && $(MAKE) -f first_blood/CMakeFiles/first_blood.dir/build.make first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.s
+.PHONY : source/tuple_algorithm_tests.cpp.s
+
 source/typelist_algorithm_tests.o: source/typelist_algorithm_tests.cpp.o
 
 .PHONY : source/typelist_algorithm_tests.o
@@ -221,6 +248,9 @@ help:
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
+	@echo "... source/tuple_algorithm_tests.o"
+	@echo "... source/tuple_algorithm_tests.i"
+	@echo "... source/tuple_algorithm_tests.s"
 	@echo "... source/typelist_algorithm_tests.o"
 	@echo "... source/typelist_algorithm_tests.i"
 	@echo "... source/typelist_algorithm_tests.s"

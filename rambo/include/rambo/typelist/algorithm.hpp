@@ -7,22 +7,22 @@ namespace rambo {
 
     namespace detail {
 
-        template<auto N, typename T, typename... Ts>
+        template<auto I, auto N, typename T, typename... Ts>
         struct index_of;
 
-        template<typename T, typename... Ts>
-        struct index_of<0, T, std::tuple<T, Ts...>> {
-            static constexpr int value = 0;
+        template<auto I, auto N, typename T, typename... Ts>
+        struct index_of<I, N, T, std::tuple<T, Ts...>> {
+            static constexpr int value = I;
         };
 
-        template<typename T, typename... Ts>
-        struct index_of<0, T, std::tuple<Ts...>> {
+        template<auto I, typename T, typename... Ts>
+        struct index_of<I, 0, T, std::tuple<Ts...>> {
             static constexpr int value = -1;
         };
 
-        template<auto N, typename T, typename H, typename... Ts>
-        struct index_of<N, T, std::tuple<H, Ts...>> {
-            static constexpr int value = 1 + index_of<N - 1, T, std::tuple<Ts...>>::value;
+        template<auto I, auto N, typename T, typename H, typename... Ts>
+        struct index_of<I, N, T, std::tuple<H, Ts...>> {
+            static constexpr int value = index_of<I + 1, N - 1, T, std::tuple<Ts...>>::value;
         };
     }
 
@@ -141,7 +141,7 @@ namespace rambo {
 
     template<typename T, typename... Ts>
     struct index_of<T, std::tuple<Ts...>>{
-        static constexpr int value = detail::index_of<sizeof(Ts)..., T, std::tuple<Ts...>>::value;
+        static constexpr int value = detail::index_of<0,std::tuple_size_v<std::tuple<Ts...>>, T, std::tuple<Ts...>>::value;
     };
 
 
