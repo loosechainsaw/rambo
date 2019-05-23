@@ -10,7 +10,9 @@ first_blood/CMakeFiles/first_blood.dir/source/main.cpp.o: ../first_blood/source/
 
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../first_blood/include/third_party/catch2/catch.hpp
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/runtime/algorithm.hpp
+first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/runtime/pop_front.hpp
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/runtime/push_front.hpp
+first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/runtime/skip.hpp
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/runtime/transform.hpp
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../rambo/include/rambo/traits.hpp
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o: ../first_blood/source/tuple_algorithm_tests.cpp

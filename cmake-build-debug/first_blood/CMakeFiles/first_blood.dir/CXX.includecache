@@ -461,11 +461,21 @@ rambo/runtime/transform.hpp
 -
 rambo/runtime/push_front.hpp
 -
+rambo/runtime/pop_front.hpp
+-
+rambo/runtime/skip.hpp
+-
+
+../rambo/include/rambo/runtime/pop_front.hpp
 
 ../rambo/include/rambo/runtime/push_front.hpp
 rambo/traits.hpp
 -
 type_traits
+-
+
+../rambo/include/rambo/runtime/skip.hpp
+rambo/traits.hpp
 -
 
 ../rambo/include/rambo/runtime/transform.hpp

@@ -24,4 +24,12 @@ TEST_CASE("tuple algorithms")
         constexpr auto result = rambo::push_front(0, source);
         STATIC_REQUIRE(expected == result);
     }
+
+    SECTION("skip")
+    {
+        constexpr auto source = std::make_tuple(1,2,3,4,5);
+        constexpr auto expected = std::make_tuple(4,5);
+        constexpr auto result = rambo::skip<3>(source);
+        STATIC_REQUIRE(expected == result);
+    }
 }

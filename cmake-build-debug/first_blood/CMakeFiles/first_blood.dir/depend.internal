@@ -11,7 +11,9 @@ first_blood/CMakeFiles/first_blood.dir/source/main.cpp.o
 first_blood/CMakeFiles/first_blood.dir/source/tuple_algorithm_tests.cpp.o
  ../first_blood/include/third_party/catch2/catch.hpp
  ../rambo/include/rambo/runtime/algorithm.hpp
+ ../rambo/include/rambo/runtime/pop_front.hpp
  ../rambo/include/rambo/runtime/push_front.hpp
+ ../rambo/include/rambo/runtime/skip.hpp
  ../rambo/include/rambo/runtime/transform.hpp
  ../rambo/include/rambo/traits.hpp
  /home/blair/projects/rambo/first_blood/source/tuple_algorithm_tests.cpp
